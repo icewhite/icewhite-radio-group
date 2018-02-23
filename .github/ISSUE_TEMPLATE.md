@@ -1,4 +1,4 @@
-<!-- Instructions: https://github.com/PolymerElements/paper-radio-group/CONTRIBUTING.md#filing-issues -->
+<!-- Instructions: https://github.com/PolymerElements/icewhite-radio-group/CONTRIBUTING.md#filing-issues -->
 ### Description
 <!-- Example: The `paper-foo` element causes the page to turn pink when clicked. -->
 

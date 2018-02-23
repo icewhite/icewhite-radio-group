@@ -1,5 +1,5 @@
 {
-  "name": "paper-radio-group",
+  "name": "icewhite-radio-group",
   "version": "2.1.0",
   "description": "A group of material design radio buttons",
   "authors": [
@@ -14,11 +14,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-radio-group.git"
+    "url": "git://github.com/PolymerElements/icewhite-radio-group.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/paper-radio-group",
-  "main": "paper-radio-group.html",
+  "homepage": "https://github.com/PolymerElements/icewhite-radio-group",
+  "main": "icewhite-radio-group.html",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#1.9 - 2",

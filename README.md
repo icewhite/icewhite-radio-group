@@ -1,13 +1,13 @@
-[![Build status](https://travis-ci.org/PolymerElements/paper-radio-group.svg?branch=master)](https://travis-ci.org/PolymerElements/paper-radio-group)
+[![Build status](https://travis-ci.org/PolymerElements/icewhite-radio-group.svg?branch=master)](https://travis-ci.org/PolymerElements/icewhite-radio-group)
 
-_[Demo and API docs](https://elements.polymer-project.org/elements/paper-radio-group)_
+_[Demo and API docs](https://elements.polymer-project.org/elements/icewhite-radio-group)_
 
 
-## &lt;paper-radio-group&gt;
+## &lt;icewhite-radio-group&gt;
 
 Material design: [Radio button](https://www.google.com/design/spec/components/selection-controls.html#selection-controls-radio-button)
 
-`paper-radio-group` allows user to select at most one radio button from a set.
+`icewhite-radio-group` allows user to select at most one radio button from a set.
 Checking one radio button that belongs to a radio group unchecks any
 previously checked radio button within the same group. Use
 `selected` to get or set the selected radio button.
@@ -18,21 +18,21 @@ set.
 Example:
 
 ```html
-<paper-radio-group selected="small">
+<icewhite-radio-group selected="small">
   <paper-radio-button name="small">Small</paper-radio-button>
   <paper-radio-button name="medium">Medium</paper-radio-button>
   <paper-radio-button name="large">Large</paper-radio-button>
-</paper-radio-group>
+</icewhite-radio-group>
 ```
 
 Radio-button-groups can be made optional, and allow zero buttons to be selected:
 
 ```html
-<paper-radio-group selected="small" allow-empty-selection>
+<icewhite-radio-group selected="small" allow-empty-selection>
   <paper-radio-button name="small">Small</paper-radio-button>
   <paper-radio-button name="medium">Medium</paper-radio-button>
   <paper-radio-button name="large">Large</paper-radio-button>
-</paper-radio-group>
+</icewhite-radio-group>
 ```
 
 See <a href="paper-radio-button">paper-radio-button</a> for more
@@ -40,10 +40,10 @@ information about `paper-radio-button`.
 
 | Custom property | Description | Default |
 | --- | --- | --- |
-| `--paper-radio-group-item-padding` | The padding of the item | `12px` |
+| `--icewhite-radio-group-item-padding` | The padding of the item | `12px` |
 
 ### Notable breaking changes between 1.x and 2.x (hybrid):
 
 IronSelectableBehavior and IronMultiSelectableBehavior, which are used by
-paper-radio-group, introduce multiple breaking changes. Please see the README
+icewhite-radio-group, introduce multiple breaking changes. Please see the README
 for those behaviors for more detail.
