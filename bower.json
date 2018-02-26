@@ -1,6 +1,6 @@
 {
   "name": "icewhite-radio-group",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "description": "A group of material design radio buttons",
   "authors": [
     "The Polymer Authors"
@@ -14,17 +14,17 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/icewhite-radio-group.git"
+    "url": "git://github.com/icewhite/icewhite-radio-group.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/icewhite-radio-group",
+  "homepage": "https://github.com/icewhite/icewhite-radio-group",
   "main": "icewhite-radio-group.html",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#1.9 - 2",
     "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#1 - 2",
     "iron-menu-behavior": "PolymerElements/iron-menu-behavior#1 - 2",
-    "paper-radio-button": "PolymerElements/paper-radio-button#1 - 2"
+    "icewhite-radio-button": "icewhite/icewhite-radio-button#^0.1.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#1 - 2",

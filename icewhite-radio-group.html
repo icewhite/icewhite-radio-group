@@ -59,10 +59,40 @@ Custom property | Description | Default
     <style>
       :host {
         display: inline-block;
+        margin: 0 0.29em;
       }
 
-      :host ::slotted(*) {
-        padding: var(--icewhite-radio-group-item-padding, 12px);
+      :host ::slotted(icewhite-radio-button) {
+        /* padding: var(--icewhite-radio-group-item-padding, 12px); */
+        margin: var(--icewhite-radio-group-item-padding, 0px);
+
+        margin-right: -4px; /* Removing the space between inline-block elements */
+      }
+
+      :host ::slotted(icewhite-radio-button:not(:first-of-type):not(:last-of-type)) {
+        border-radius: 0px;
+
+        @apply --icewhite-radio-group-item-not-first-or-last;
+      }
+
+      :host ::slotted(icewhite-radio-button:not(:first-of-type)) {
+        border-left: 1px solid var(--icewhite-radio-button-unchecked-color);
+
+        @apply --icewhite-radio-group-item-not-first;
+      }
+
+      :host ::slotted(icewhite-radio-button:first-of-type) {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        @apply --icewhite-radio-group-item-first;
+      }
+
+      :host ::slotted(icewhite-radio-button:last-of-type) {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+        @apply --icewhite-radio-group-item-last;
       }
     </style>
 
@@ -110,7 +140,7 @@ Custom property | Description | Default
        */
       selectable: {
         type: String,
-        value: 'paper-radio-button'
+        value: 'icewhite-radio-button'
       },
 
       /**
